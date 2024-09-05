@@ -1,4 +1,4 @@
-FROM php:8.2.17
+FROM php:8.4.0alpha1
 
 RUN curl -sS https://getcomposer.org/installer | php -- \
      --install-dir=/usr/local/bin --filename=composer
